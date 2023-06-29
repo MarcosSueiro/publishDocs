@@ -16,4 +16,4 @@ Steps:
 6. Find files in DAVID that were created within 10 days previous to publishing the segment
 7. Find titles from those files whose DAVID title includes the term (i.e. the guest's last name)
 8. Sort files in decreasing length
-9. [Publish](https://marcossueiro.github.io/publishDocs/) a list of files without warnings and longer than a specified length (e.g. 10 minutes)
+9. [Publish](https://marcossueiro.github.io/takeawayDocs/) a list of files without warnings and longer than a specified length (e.g. 10 minutes)
