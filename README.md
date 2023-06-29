@@ -10,4 +10,10 @@ Steps:
 
 1. Download all Takeaway segments using the station's API (due to memory issues, we created five xml documents)
 2. Clean out the html and extract only relevant information using regex
-3. Parse out guests within the descriptions of each segment. Guests are generally marked as **strong** or **bold**, or simply introduced with 
+3. Parse out guests within the descriptions of each segment. Guests are generally marked as **strong** or **bold**, or simply introduced with the string 'Guest: '
+4. Extract the guest's last name, and transliterate special characters. This will be our **term**
+5. Determine the "uniqueness" of the term in DAVID titles using previously-performed term frequency analysis. If the term is common, include a warning
+6. Find files in DAVID that were created within 10 days previous to publishing the segment
+7. Find titles from those files whose DAVID title includes the term (i.e. the guest's last name)
+8. Sort files in decreasing length
+9. Publish a list of files without warnings and longer than a specified length (e.g. 10 minutes)
