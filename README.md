@@ -1,10 +1,10 @@
 # takeawayDocs
-[The Takeaway](https://www.wnycstudios.org/podcasts/takeaway) is a New York Public Radio (NYPR) show that aired on WNYC for many years.
+[The Takeaway](https://www.wnycstudios.org/podcasts/takeaway) is a New York Public Radio (NYPR) show that aired on WNYC for many years. It often included guests. 
 More than 300,000 of the show's production files are in a folder in the station's internal playout system, [DAVID](https://www.davidsystems.com/).
 
 On the other hand, 17,000+ segments live on the station's web site.
 
-This project aimed to match the published segments with the production files using the guest's name.
+This project aimed to match the published segments with the production files using the guest's name. We are particularly interested in full, raw interviews with the guests that appeared on the program.
 
 Steps:
 
